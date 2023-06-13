@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #F9F6EF;
+    margin: 0;
+    padding: 0;
+}
+.Menu{
+    display: flex;
+    background-color: #1B354E;
+    height: 50px;
+    width: 100%;
+}
+.Menu .image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Menu img{
+    height: 100%;
+}
+.Menu .text{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
