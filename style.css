@@ -1,12 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
     background-color: #F9F6EF;
     margin: 0;
     padding: 0;
 }
 .Menu{
     display: flex;
+    color: #fff;
     background-color: #1B354E;
     height: 50px;
     width: 100%;
@@ -19,9 +19,66 @@ body{
 }
 .Menu img{
     height: 100%;
+    margin-right: 25px;
 }
 .Menu .text{
     display: flex;
     width: 50%;
     align-items: center;
+    margin-left: 25px;
+}
+.SearchFilter{
+    background-color: #F0F2F5;
+    box-shadow: 0 2px 4px 1px rgb(184, 181, 181);
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+.SearchFilter input{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.SearchFilter input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.SearchFilter input::-webkit-input-placeholder {
+    font-size: 12pt;
+    font-weight: bold;
+}
+.iconFilter{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.iconFilter img{
+    height: 60%;
+}
+.Filter{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Filter select{
+    padding: 3px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+.containerSearch{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerFilter{
+    width: 50%;
+    font-size: 16pt;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
