@@ -27,6 +27,9 @@ body{
     align-items: center;
     margin-left: 25px;
 }
+.text h3{
+    font-size: 1vw;
+}
 .SearchFilter{
     background-color: #F0F2F5;
     box-shadow: 0 2px 4px 1px rgb(184, 181, 181);
@@ -48,7 +51,7 @@ body{
     display: none;
 }
 .SearchFilter input::placeholder {
-    font-size: 12pt;
+    font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
