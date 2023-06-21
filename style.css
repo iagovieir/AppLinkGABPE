@@ -33,15 +33,13 @@ body{
     align-items: center;
     margin-left: 25px;
 }
-.text h3{
-    font-size: 2vw;
-}
 .SearchFilter{
     background-color: #F0F2F5;
     box-shadow: 0 2px 4px 1px rgb(184, 181, 181);
     display: flex;
     height: 50px;
     width: 100%;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 .SearchFilter input{
     width: 80%;
@@ -57,8 +55,8 @@ body{
     display: none;
 }
 .SearchFilter input::placeholder {
-    font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
     font-weight: bold;
 }
 .iconFilter{
@@ -90,7 +88,6 @@ body{
 }
 .containerFilter{
     width: 50%;
-    font-size: 16pt;
     display: flex;
     align-items: center;
     gap: 4px;
