@@ -22,9 +22,10 @@ body{
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .Menu img{
-    height: 100%;
+    height: clamp(60%, 5vh, 100%);
     margin-right: 25px;
 }
 .Menu .text{
@@ -48,7 +49,7 @@ body{
     border-radius: 10px;
     outline: none;
     border: none;
-    font-size: 12pt;
+    font-size: clamp(0.7rem, 1.5vw, 1rem);
     font-weight: bold;
 }
 .SearchFilter input:focus::placeholder {
