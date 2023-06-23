@@ -25,7 +25,7 @@ body{
     align-items: center;
 }
 .Menu img{
-    height: clamp(60%, 5vh, 100%);
+    height: clamp(1vh, 5vh, 6vh);
     margin-right: 25px;
 }
 .Menu .text{
