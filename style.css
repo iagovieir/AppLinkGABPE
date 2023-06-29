@@ -63,7 +63,7 @@ body{
 }
 .Filter{
     height: 100%;
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     gap: 4px;
