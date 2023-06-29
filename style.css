@@ -72,6 +72,8 @@ body{
     height: 55%;
 }
 .Filter select{
+    height: 50%;
+    width: 48%;
     padding: 3px;
     border-radius: 7px;
     border: none;
