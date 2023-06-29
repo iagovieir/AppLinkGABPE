@@ -25,7 +25,7 @@ body{
     align-items: center;
 }
 .Menu img{
-    height: 80%;
+    height: clamp(80%, 0.8vh, 100%);
     margin-right: 25px;
 }
 .Menu .text{
@@ -73,7 +73,7 @@ body{
 }
 .Filter select{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(0.7rem, 1.5vw, 1rem);
+    font-size: clamp(0.4rem, 1vw, 1rem);
     padding: 3px;
     border-radius: 7px;
     border: none;
