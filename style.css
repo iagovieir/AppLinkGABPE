@@ -45,7 +45,7 @@ body{
 }
 .SearchFilter input{
     width: 80%;
-    height: 70%;
+    height: 65%;
     border-radius: 10px;
     outline: none;
     border: none;
@@ -63,7 +63,7 @@ body{
 }
 .Filter{
     height: 100%;
-    width: 40%;
+    width: 35%;
     display: flex;
     align-items: center;
     gap: 4px;
