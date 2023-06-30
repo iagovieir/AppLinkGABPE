@@ -106,7 +106,7 @@ body{
     box-shadow: 0 2px 4px 1px rgb(184, 181, 181);
     padding: 1rem;
     width: 250px;
-    height: 170px;
+    height: 180px;
     text-align: center;
   }
   .itemImage{
@@ -114,9 +114,12 @@ body{
     width: 100%;
   }
   .itemImage img{
-    height: 100%;
+    height: 95%;
   }
   .itemDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 20%;
     width: 100%;
   }
