@@ -115,7 +115,8 @@ body{
   }
   .itemImage img{
     height: 95%;
-  }
+    border-radius: 10px;
+}
   .itemDescription{
     display: flex;
     align-items: center;
