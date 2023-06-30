@@ -101,9 +101,11 @@ body{
   
 .item{
     background-color: #f1f1f1;
-    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 1px rgb(184, 181, 181);
+    padding: 1rem;
+    width: 250px;
     height: 170px;
-    padding: 20px;
     text-align: center;
   }
   .itemImage{
