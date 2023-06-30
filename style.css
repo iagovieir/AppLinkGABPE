@@ -112,12 +112,17 @@ body{
   .itemImage{
     height: 80%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .itemImage img{
     height: 95%;
+    width: 100%;
     border-radius: 10px;
 }
   .itemDescription{
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
